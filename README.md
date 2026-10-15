@@ -4,6 +4,8 @@ Custom Electron binaries distributed through GitHub Releases.
 
 Each release contains platform ZIP archives, SHASUMS256.txt, and the corresponding Electron npm package tarball.
 
+Install Node.js first: [Download Node.js v24.22.0](https://nodejs.org/zh-cn/download/archive/v24.22.0).
+
 To use a custom release, install its electron-VERSION.tgz asset and configure the following environment variables before npm install:
 
 ```powershell
