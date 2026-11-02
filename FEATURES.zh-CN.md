@@ -1,6 +1,6 @@
 # 各二进制版本的定制功能
 
-核验日期：2026-11-02。范围为 edist 已发布、且本地保留的 10 个版本、15 个平台 ZIP。本文以发布包为依据，不把当前源码的全部功能直接归入历史版本。
+核验日期：2026-11-02。范围为 edist 已发布、且本地保留的 11 个版本、16 个平台 ZIP。本文以发布包为依据，不把当前源码的全部功能直接归入历史版本。
 
 ## 如何理解核验结果
 
@@ -363,3 +363,18 @@
 ## 后续发布要求
 
 每个平台发布时保存构建提交、工作区补丁摘要、平台架构、上游版本与 ZIP SHA-256，并用实际产物回归 UA/CH、输入、DOM、文件上传、对话框、头序和代理认证。不能仅从提交日期或版本递增推断功能继承。
+
+## v45.0.0-cloudbypass.3
+
+Windows x64 定制 Electron：无需 CDP 的 AI Agent 自动化。
+
+- 新增 getAgentSnapshot、findAgentElements；增强 dispatchMouseEvent、dispatchKeyEvent、dispatchTouchEvent、clickSelector、querySelectorAcrossDocuments，共七个公开方法。
+- 原生读取主文档、同源 iframe、跨域 OOPIF、开放及封闭 Shadow DOM 的名称、文本、当前值、控件状态和错误信息；快照明确报告部分覆盖及截断原因。
+- 隐藏或未聚焦窗口支持可信鼠标、键盘及触摸输入，不激活系统窗口。派发结果区分 dispatched / failed；效果须重新读取验证。
+- Windows 增量编译，11 项验收全部通过，系统前台激活 0 次。Linux 未编译或验证，此版本没有 Linux 包。
+- 原生弹出控件、离屏渲染等限制及完整接口说明见 [Agent 自动化](https://github.com/ChengHoward/edist/blob/main/AGENT.zh-CN.md)。
+- 自定义分发版本为 45.0.0-cloudbypass.3；二进制内部上游版本仍为 45.0.0-beta.5。
+
+附件包括平台 ZIP、SHA-256、npm 安装包、验收结果及构建记录。
+
+Windows x64 ZIP SHA-256：`d5168ab311800e0feb739c1bd7bea50cea2ddb601975152de9f95ff1dd9ec82f`。
