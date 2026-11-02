@@ -25,3 +25,6 @@ Example dependency for version 44.0.0-cloudbypass.6:
 ```
 
 Available platforms vary by release. Refer to the assets attached to the selected release.
+## 各版本定制功能
+
+请查看 [二进制版本功能支持](./FEATURES.zh-CN.md)，按版本和平台列出定制 API、已核验行为、待验证项及 ZIP 校验值。
