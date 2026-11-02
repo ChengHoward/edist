@@ -28,3 +28,9 @@ Available platforms vary by release. Refer to the assets attached to the selecte
 ## 各版本定制功能
 
 请查看 [二进制版本功能支持](./FEATURES.zh-CN.md)，按版本和平台列出定制 API、已核验行为、待验证项及 ZIP 校验值。
+
+## 最新 Agent 自动化版本
+
+[v45.0.0-cloudbypass.3](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.3)（Windows x64）：无需 CDP，支持跨域 iframe、封闭 Shadow DOM 和隐藏窗口可信输入。详见 [接口说明](./AGENT.zh-CN.md)。
+
+安装包：[electron-45.0.0-cloudbypass.3.tgz](https://github.com/ChengHoward/edist/releases/download/v45.0.0-cloudbypass.3/electron-45.0.0-cloudbypass.3.tgz)。沿用上方镜像环境变量配置即可安装。
