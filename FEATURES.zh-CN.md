@@ -1,6 +1,6 @@
 # 各二进制版本的定制功能
 
-核验日期：2026-11-02。范围为 edist 已发布、且本地保留的 11 个版本、16 个平台 ZIP。本文以发布包为依据，不把当前源码的全部功能直接归入历史版本。
+历史版本基础核验日期：2026-11-02。范围为 edist 已发布、且本地保留的 11 个版本、16 个平台 ZIP。本文以发布包为依据，不把当前源码的全部功能直接归入历史版本。
 
 ## 如何理解核验结果
 
@@ -356,7 +356,7 @@
 
 ## 源码与发布包的区别
 
-当前源码还有未提交的 `setFileInputFiles` 绝对路径校验和文件读取授权修复，不能据此认定以上任何发布包已包含该修复。
+2026-11-02 基础核验时，源码还有未提交的 `setFileInputFiles` 绝对路径校验和文件读取授权修复，不能据此认定以上任何发布包已包含该修复。
 
 旧说明中“仅隐藏 window.chrome、不提供 chrome.app/csi/loadTimes”的描述，对 45.0.0-cloudbypass.2 的 Windows 包已经过时；此前版本本次仍未观察到这些页面对象。Linux 需另行确认。
 
@@ -385,3 +385,9 @@ Windows x64 ZIP SHA-256：`d5168ab311800e0feb739c1bd7bea50cea2ddb601975152de9f95
 [Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.4)：原生虚拟光标、鼠标/键盘统一时间线、真实输入阻断、有限焦点等待，46 项运行验收通过。详见 [接口、性能及验收范围](./AGENT.zh-CN.md)。
 
 ZIP SHA-256：`d61e6293bfd80f008c9ae03503b9aa90033b6d3d6b73434867a0b0651c4ddb39`。
+
+## v45.0.0-cloudbypass.5
+
+2026-11-04：[Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.5)：原生网站信息与 NativePanel，42 组定向验收及 46 组既有功能回归通过，镜像安装和公开类型验证通过。接口与实测边界见 [原生浮层说明](./NATIVE-PANELS.zh-CN.md)。
+
+ZIP SHA-256：`bf86a89be1a2578ea30fbf48d2f34082dd31938acda0cbc98b67f688c90c9ece`。
