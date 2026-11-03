@@ -378,3 +378,10 @@ Windows x64 定制 Electron：无需 CDP 的 AI Agent 自动化。
 附件包括平台 ZIP、SHA-256、npm 安装包、验收结果及构建记录。
 
 Windows x64 ZIP SHA-256：`d5168ab311800e0feb739c1bd7bea50cea2ddb601975152de9f95ff1dd9ec82f`。
+
+
+## v45.0.0-cloudbypass.4
+
+[Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.4)：原生虚拟光标、鼠标/键盘统一时间线、真实输入阻断、有限焦点等待，46 项运行验收通过。详见 [接口、性能及验收范围](./AGENT.zh-CN.md)。
+
+ZIP SHA-256：`d61e6293bfd80f008c9ae03503b9aa90033b6d3d6b73434867a0b0651c4ddb39`。
