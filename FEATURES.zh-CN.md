@@ -391,3 +391,11 @@ ZIP SHA-256：`d61e6293bfd80f008c9ae03503b9aa90033b6d3d6b73434867a0b0651c4ddb39`
 2026-11-04：[Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.5)：原生网站信息与 NativePanel，42 组定向验收及 46 组既有功能回归通过，镜像安装和公开类型验证通过。接口与实测边界见 [原生浮层说明](./NATIVE-PANELS.zh-CN.md)。
 
 ZIP SHA-256：`bf86a89be1a2578ea30fbf48d2f34082dd31938acda0cbc98b67f688c90c9ece`。
+
+## v45.0.0-cloudbypass.6
+
+2026-11-04：[Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.6)：NativePanel 列表、图标按钮、文本与滚动条样式；原生 Menu 外观、行内控件、图标与勾选/单选；原版 Chromium 证书查看器和多语言网站信息。菜单与 NativePanel 不新增 WebContents；证书查看器使用一个隔离的专用 WebContents。
+
+115 项定向验收及回归通过；从本地镜像实际安装后的运行、公开类型和 3 项菜单/证书界面检查通过。完整接口、23 张截图及实测边界见 [原生界面定制说明](./NATIVE-UI.zh-CN.md)。本版内部 Electron 版本仍为 `45.0.0-beta.5`，Linux 仍使用独立的 `.2` 版本。
+
+ZIP SHA-256：`9b1e6a80968dac730ff60f7a1d5a0ee67dd43643357f4ff04422648705f967b8`。
