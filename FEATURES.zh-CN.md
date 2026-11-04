@@ -399,3 +399,13 @@ ZIP SHA-256：`bf86a89be1a2578ea30fbf48d2f34082dd31938acda0cbc98b67f688c90c9ece`
 115 项定向验收及回归通过；从本地镜像实际安装后的运行、公开类型和 3 项菜单/证书界面检查通过。完整接口、23 张截图及实测边界见 [原生界面定制说明](./NATIVE-UI.zh-CN.md)。本版内部 Electron 版本仍为 `45.0.0-beta.5`，Linux 仍使用独立的 `.2` 版本。
 
 ZIP SHA-256：`9b1e6a80968dac730ff60f7a1d5a0ee67dd43643357f4ff04422648705f967b8`。
+
+## v45.0.0-cloudbypass.7
+
+2026-11-04：[Windows x64 发布包](https://github.com/ChengHoward/edist/releases/tag/v45.0.0-cloudbypass.7)：新增 NativePanel 多行 Textarea、系统亚克力 `backgroundMaterial: 'acrylic'`、列表／外层溢出区／编辑区统一细圆头滚动条，以及 `scrollbarPlacement: 'overlay' | 'gutter'`。默认预留槽位，编辑器滚动条独立于正文内边距。
+
+135 项运行验收与回归、126 项参数校验通过。从本地镜像实际安装后的运行、公开类型和 6 项材质／滚动条界面检查通过。接口、截图、系统降级边界见 [NativePanel 多行编辑与系统材质](./NATIVE-PANEL-CUSTOMIZATION.zh-CN.md)。保留原有 Menu、证书查看器、Agent、可信输入与虚拟光标功能；本轮未增加 Menu 材质。
+
+分发版本 `45.0.0-cloudbypass.7`；二进制内部版本仍为 `45.0.0-beta.5`。本次仅发行 Windows x64，Linux 仍为独立 `.2`。
+
+ZIP SHA-256：`89e2159eafe721cc14e99b3392ae2fa6a417e1002cdb19791f62a1f9cbae6402`。
